@@ -19,7 +19,7 @@ module.exports = {
 
   // configure the dev server to run 
   devServer: {
-    port: 3000,
+    port: 3001,
     historyApiFallback: true,
     inline: true,
   },

@@ -40,16 +40,17 @@ export default class App extends React.Component{
        </div> {/* <!--/.container-fluid --> */}
       </nav>
 
-      
-
+ 
+       
 
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/contact" component={Contact}/>
-
+             
     </div>{/* <!-- /container --> */}
+    
             </div>
-
+        
 </Router>
 
         );
