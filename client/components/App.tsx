@@ -9,9 +9,15 @@ import {
     NavLink
 } from 'react-router-dom'
 
-export default class App extends React.Component{
-    render(){
+export default class App extends React.Component<any, any>{
+  
+  
+  
+  render(){
+
+
         return (
+          
             <Router>
             <div className="App">
              <div className="container">
@@ -55,4 +61,6 @@ export default class App extends React.Component{
 
         );
     }
+
+   
 }

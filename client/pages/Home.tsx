@@ -1,14 +1,17 @@
 import React from 'react';
 
+
 export default class Home extends React.Component<any, any>{
-    constructor(props: any) {
+
+
+
+    constructor(props?: any) {
         super(props);
         this.state = {};
+       
     }
  
-
-
-  public parksUrl: string = `https://api.github.com/users/SylvesterMabasa`;
+    public parksUrl = `https://api.github.com/users/SylvesterMabasa`;
  
     componentDidMount() {
         
